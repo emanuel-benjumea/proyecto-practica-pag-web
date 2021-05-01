@@ -1,0 +1,22 @@
+h1{
+    color: darkred;
+    text-align: center;
+}
+a:link{
+    color: brown;
+    text-decoration: none;
+}
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    color: saddlebrown;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+}
+a:active{
+    color:blue;
+}
+
