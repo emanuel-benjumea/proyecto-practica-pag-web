@@ -1,0 +1,39 @@
+table{
+    width: 100%;
+}
+caption{
+    color: crimson;
+    font-family: 'Courier New',  monospace;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+table, th ,td{
+    border: 1px solid black;
+    border-collapse: collapse;/* esto quita el sobre borde de la tabla*/
+    padding: 20px ;/*esto es la anchura de la tabla*/
+    /*border-spacing: 5px;esto ampia el sobre borde de la tabla*/
+}
+
+td{
+    text-align: center;
+}
+/* esto hace que el titulo de las tablas sea a izquierda  o derecha
+th{
+    text-align: right;
+}*/
+
+th{
+    color: beige;
+    background-color: rgb(20, 20, 90);
+}
+/*modifica los renglones pares*/
+tr:nth-child(even){
+    background-color: rgb(99, 101, 230);
+}
+/*modifica los renglones impares*/
+tr:nth-child(odd){
+    background-color: rgb(197, 236, 236);
+
+}

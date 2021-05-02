@@ -16,7 +16,19 @@ a:hover{
 p{
     text-align: center;
 }
-a:active{
-    color:blue;
+
+
+
+a.link,a:visited{
+    background-color: brown;
+
+    color: black;
+    padding: 15px 25 px;
+    text-align: center;
+    text-decoration: none;
 }
 
+a:hover,a:active{
+    background-color: chartreuse;
+    color: brown;
+}

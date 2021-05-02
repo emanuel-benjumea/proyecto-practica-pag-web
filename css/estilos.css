@@ -1,16 +1,16 @@
 h1{
-    color:red ;
+    color:darkred ;
     
 
     text-align: center;
 }
 p{
-    color:darkblue;
-    background-color: crimson;
+    color:black ;
+    background-color:darkred;
 
     padding: 20px;
 
-    border: 10px solid black;
+    border: 10px solid darkgreen;
    /* margin-top: 20px;
     margin-bottom: 20;
     margin-right: 20px;
