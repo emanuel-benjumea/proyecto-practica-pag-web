@@ -1,0 +1,44 @@
+/*margenes
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+.titulo{
+    margin: 10px;
+    color: #6C733D;
+    text-align: center
+    
+   
+}
+h2{
+    margin: 5px;
+    color: #9DA65D;
+}
+
+p{
+    color: #F2F2F2;
+}
+.tarjeta{
+    margin: 2px;
+    border: 10px solid #8C8C88;
+    text-align: center;
+}
+/*¨clase de css*/
+body{
+    background-color: #202426;
+}
+
+.titulo-texto{
+    color: chartreuse;
+}
+h2{
+    color: #8d9c29;
+}
+a:hover{
+    color: #6C733D;
+}
+a{
+    color: chartreuse;
+}

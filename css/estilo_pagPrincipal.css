@@ -1,13 +1,47 @@
 h1{
+    color: #c1dd0c;
     text-align: center;
+
 }
 
-
-h2{
+ul{
+    list-style-type: none;
+    background-color: #9DA65D;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: aliceblue;
+    padding: 8px;
+    text-decoration: none;
     text-align: center;
-    
+
+}
+li a:hover,a:hover{
+    background-color: #6C733D;
+    text-align: center;
+
 }
 
+h2, p{
+    text-align: center;
+
+}
+body{
+    background-color: #202426;
+}
 p{
-    text-align: center;
+    color: #F2F2F2;
+}
+h2{
+    color: #8d9c29;
+}
+
+a{
+    color: #c1dd0c;
 }
