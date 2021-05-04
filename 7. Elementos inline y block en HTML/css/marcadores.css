@@ -24,7 +24,7 @@ p{
 }
 /*¨clase de css*/
 body{
-    background-color: #202426;
+    background-color: #000000;
 }
 
 .titulo-texto{
@@ -44,7 +44,7 @@ a{
 
 
 /*identificador css*/
-#titulo_principal{
+#titulo_secundario{
     color: #ddff00;
     text-align: center;
 }
