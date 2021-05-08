@@ -1,0 +1,28 @@
+
+#titulo{
+    
+    text-align: center;
+    color: black;
+}
+
+#texto{
+    color: darkblue;
+    text-align: center;
+}
+
+.texto_centrar{
+    text-align: center;
+}
+.texto_grande{
+    font-size: 20px;
+}
+
+div h3,div p{
+     color: navy;
+     text-align: center;
+}
+
+p.subclase{
+    color: brown;
+    
+}

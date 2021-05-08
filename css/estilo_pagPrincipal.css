@@ -10,6 +10,7 @@ ul{
     overflow: hidden;
     margin: 0;
     padding: 0;
+    
 }
 li{
     float: left;
@@ -37,11 +38,28 @@ body{
 }
 p{
     color: #F2F2F2;
+    text-align: center;
 }
 h2{
     color: #8d9c29;
 }
 
 a{
-    color: #c1dd0c;
+    color: #fbfbfb;
+}
+li{
+    text-align: center;
+}
+footer{
+    clear:both;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    color:#F2F2F2 ;
+}
+footer a{
+    text-decoration: none;
+    background-color: #8d9c29;
+    border-radius: 10px 0 10px 0;
+    padding: 5px;
 }
