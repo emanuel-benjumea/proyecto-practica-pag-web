@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(36, 39, 39, 0.37);
+}
+h1{
+    text-align: center;
+    color: red;
+}
+
+.caja{
+    padding: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 10px;
+    float: left;
+}
+
+
+.rojo{
+    background-color: crimson;
+}
+.negro{
+    background-color: black;
+}
+.rgb{
+    background-color: rgb(127, 18, 230);
+}
+.rgba{
+    background-color: rgba(0, 255, 255,.9);
+}
+.hexa{
+    background-color: rgb(5, 131, 1);
+}
+.hexatras{
+    background-color: #ffe600e3;
+}
+
+.hsl{
+    background-color: hsl(25, 75%, 47%);
+}
+.hsla{
+    background-color: hsla(81, 75%, 47%,.7);
+}

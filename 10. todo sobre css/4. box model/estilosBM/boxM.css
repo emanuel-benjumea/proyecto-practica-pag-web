@@ -1,0 +1,29 @@
+
+
+
+h1{
+    text-align: center;
+    color: red;
+}
+div{
+   padding: 10px  ;
+   border: 6px solid rgb(0, 0, 255);
+   /*margin: auto;PARA CENTRAR EL CONTENIDO*/
+   margin: 20PX;
+   text-align: center ;
+   background-color: rgb(226, 226, 217);
+ 
+   box-sizing: border-box;
+   /*max-width: 300PX;
+   /*max-height: 200px;   aqui el largo del recuado*/
+
+   outline: 5px dashed rgb(5, 128, 5);
+   outline-offset: 10px /*no se pueden modificar los bordes del outline*/;
+  
+
+}
+
+/*
+p.interno{
+    margin-left: inherit;
+}*/
