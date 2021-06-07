@@ -69,3 +69,18 @@ console.log(y);
 console.log(typeof y);
 
 
+//array
+
+var autos=['bmw','lamborgini','camaro'];
+
+console.log(autos);
+console.log(typeof autos);
+
+//empty string
+
+var z='';
+console.log(z);
+console.log(typeof z);
+
+
+//
