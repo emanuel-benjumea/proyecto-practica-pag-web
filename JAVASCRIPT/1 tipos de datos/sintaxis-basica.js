@@ -210,3 +210,17 @@ else{
     }
 }
 
+let n1;
+
+
+if(n1 == 1){
+    console.log("numero 1")
+}else if(n1 == 2){
+    console.log("numero 2")
+}else if (n1 == 3){
+    console.log("numero 3")
+}else{
+    console.log("el numero es mayor a 3")
+}
+
+

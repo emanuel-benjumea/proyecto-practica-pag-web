@@ -1,3 +1,7 @@
+*{
+    font-family: BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 html{
     height: 100%;
 }
@@ -25,6 +29,7 @@ body{
 
 .contenedor .elemento label{
     color: #fff;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contenedor .elemento input{
@@ -35,17 +40,22 @@ body{
     border: none;
     border-bottom: 1px solid #fff;
     margin-bottom: 30px;
+   
     
 }
 .contenedor .elemento input[type="submit"]{
     background-color: #0881b6;
     border: none;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+     letter-spacing: 5px;
+     text-transform: uppercase;
     cursor: pointer;
     padding: 15px;
     margin-top: 30px;
+  
 
 
 }
 
+.texto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
