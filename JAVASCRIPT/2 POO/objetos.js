@@ -4,10 +4,10 @@ let persona = {
     apellido: "lopez",
     email:"jlopez@mail",
     edad: 20,
-    nombreCompleto: function(){this.nombre + this.apellido},
+    /*nombreCompleto: function(){this.nombre + this.apellido},
     nombreCompleto2: function(){
         return this.nombre + " " + this.apellido;
-    }
+    }*/
 }
 
 /*
@@ -41,3 +41,25 @@ for (nombrepropiedad in persona){
 persona.tel= "2355";
 
 console.log(persona);
+
+delete persona.tel;
+console.log(persona);
+
+
+//concatenar cada valor de cada propiedad
+
+
+console.log(persona.nombre+ ' '+ persona.apellido);
+
+for(nombrePropiedad in persona){
+    console.log(persona[nombrePropiedad]);
+}
+
+let personaArray = Object.values(persona);
+console.log(personaArray);
+
+
+
+let personastring = JSON.stringify(persona);
+
+console.log(personastring);
